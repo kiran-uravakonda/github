@@ -1,5 +1,9 @@
-var a=[10,20,30,40,50,60]
-for(var i in a)
-{
-    console.log(i)
+var details={
+    laptop:"samsung",
+    ram:"12GB",
+    value:40000
 }
+Object.keys(details).forEach((ele)=>
+{
+    console.log(ele)
+})
